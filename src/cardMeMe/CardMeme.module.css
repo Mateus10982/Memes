@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1000px) {
+    
+.cardM{
+    width: 400px;
+    height: 80%;
+    background-color: white;
+    color: gray;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #22222270;
+    padding: 10px;
+    margin-left: 750px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    display: inline-flexbox;
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 98%;
+    height: 80%;
+}
+label{
+    height: 9%;
+}
+}
+@media only screen and (max-width: 999px) {
+    
+    .cardM{
+        width: 400px;
+        height: 80%;
+        background-color: white;
+        color: gray;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px #22222270;
+        padding: 10px;
+        margin-left: 300px;
+        margin-bottom: 100px;
+        margin-top: 10px;
+        display: inline-flexbox;
+        float: left;
+        align-items: center;
+        justify-content: space-between;
+    }
+    img{
+        width: 98%;
+        height: 80%;
+    }
+    label{
+        height: 9%;
+    }
+    }
+    
+@media only screen and (max-width: 700px) {
+    .cardM{
+        width: 90%;
+        height: 80%;
+        background-color: white;
+        color: gray;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px #22222270;
+        padding: 10px;
+        margin-left: 21px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        display: inline-flexbox;
+        float: left;
+        align-items: center;
+        justify-content: space-between;
+    }
+    img{
+        width: 95%;
+        height: 60%;
+        margin-top: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    label{
+        height: 9%;
+    }
+        }
